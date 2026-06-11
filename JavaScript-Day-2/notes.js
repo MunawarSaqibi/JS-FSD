@@ -103,12 +103,12 @@
 // console.log(isHot); // true
 // console.log(isCold); // false
 
-if (0) {
-console.log("This won't run"); // 0 is falsy
-}
-if (1) {
-console.log("This will run"); // 1 is truthy
-}
-if ("hello") {
-console.log("This will run"); // non-empty string is truthy
-}
+// if (0) {
+// console.log("This won't run"); // 0 is falsy
+// }
+// if (1) {
+// console.log("This will run"); // 1 is truthy
+// }
+// if ("hello") {
+// console.log("This will run"); // non-empty string is truthy
+// }

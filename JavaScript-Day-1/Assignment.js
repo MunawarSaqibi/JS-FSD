@@ -130,8 +130,82 @@
 // console.log("After Shopping Paid, Bank Balance is", bankBalance)
 
 
-let amount = 10000;
-amount*=1.10
-amount*=1.10
-amount*=1.10
-console.log("Amount after 3 years with 10% interest is", amount.toFixed(2))
+//Problem 15
+// let amount = 10000;
+// amount*=1.10
+// amount*=1.10
+// amount*=1.10
+// console.log("Amount after 3 years with 10% interest is", amount.toFixed(2))
+
+
+//Problem 16
+// let x = 10;
+// let y = x++;
+// console.log("x:", x, "y:", y); //x=11, y=10
+// let a = 10;
+// let b = ++a;
+// console.log("a:", a, "b:", b); //a=11, b=11
+
+//Problem 17
+// let countdown = 10;
+// countdown--;
+// countdown--;
+// countdown--;
+// countdown--;
+// countdown--;
+// countdown--;
+// countdown--;
+// countdown--;
+// countdown--;
+// countdown--;
+// console.log("Countdown is at", countdown)
+
+// Problem 18
+// let num = 5;
+// let newNum = num++; // What are num and newNum now?
+// console.log("num:", num, "newNum:", newNum); //num=6, newNum=5
+// newNum = ++num; // What are num and newNum now?
+// console.log("num:", num, "newNum:", newNum); //num=7, newNum=7
+
+// Problem 19
+// a)
+// let result1 = 0/0;
+// console.log(result1) //NaN
+
+// let result2 = "hello" * 5;
+// console.log(result2) //NaN
+// let result3 = NaN + 10;
+// console.log(result3) //NaN
+
+
+// Problem 20
+// let value1 = 100;
+// let value2 = "test" / 2;
+// let value3 = 0 / 0;
+// let value4 = "123";
+// console.log(Number.isNaN(value1)); // false
+// console.log(Number.isNaN(value2)); // true
+// console.log(Number.isNaN(value3)); // true
+// console.log(Number.isNaN(value4)); // false
+
+// Problem 21
+// let Math = 85;
+// let Science = 92;
+// let English = 78;
+// let History = 88;
+// let Computer = 95;
+// let AverageScore = (Math + Science + English + History + Computer) / 5;
+// console.log("Your Average Score is", AverageScore);
+
+// Problem 22
+// let currentYear=2026;
+// let birthYear=2005;
+// let age=2026-2005;
+// console.log(`In 2026, I am ${age} years old.`);
+
+// Problem 23
+let a=10;
+let b=20;
+
+console.log(a+10) //erro
+console.log(b-10) //erro

@@ -204,8 +204,8 @@
 // console.log(`In 2026, I am ${age} years old.`);
 
 // Problem 23
-let a=10;
-let b=20;
+// let a=10;
+// let b=20;
 
-console.log(a+10) //erro
-console.log(b-10) //erro
+// console.log(a+10) 
+// console.log(b-10) 

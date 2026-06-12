@@ -140,7 +140,81 @@
 // console.log(0 === false); // false
 
 // Problem 15
-let userInput = "10";
-if (userInput === "10") {
-console.log("Input is 10");
+// let userInput = "10";
+// if (userInput === "10") {
+// console.log("Input is 10");
+// }
+
+// Problem 18
+
+// let userName = "Sarah";
+// let hour = 9; // 9 AM
+// let greeting = `Good morning, ${userName} it's ${hour} AM!`;
+// console.log(greeting);
+
+// Problem 19
+// let userAge = 16;
+// let minimumAge = 18;
+// // Write a comparison to check if user is old enough
+// let isOldEnough = userAge>=minimumAge;
+// console.log(isOldEnough); 
+
+// Problem 20
+// let email = "alice@example.com";
+// // Get the first character
+// let firstChar = email[0];
+// // Check if it's a lowercase letter (between 'a' and 'z')
+// let isValid = firstChar >= 'a' && firstChar <= 'z';
+// console.log(isValid);
+
+// Problem 21
+// let productName = "Wireless Mouse";
+// let productPrice = 29.99;
+// let inStock = true;
+// // Create: "Product: Wireless Mouse | Price: $29.99 | In Stock: true"
+// let description = `Product: ${productName} | Price: $${productPrice} | In Stock: ${inStock}`;
+// console.log(description);
+
+// Problem 22
+// let firstName = "John";
+// let middleName = "Robert";
+// let lastName = "Smith";
+// // Create initials: "J.R.S."
+// let initials = `${firstName[0]}. ${middleName[0]}. ${lastName[0]}`;
+// console.log(initials);
+
+// Problem 23
+// let firstPlace = "Gold";
+// let userName = "Alice";
+// let totalCost = 100;
+// let age = 20;
+// if (age >= 18) {
+// console.log(`You can vote`)
+// }else{
+//     console.log(`Not Eligible to Vote`)
+// }
+// let message = "It's a beautiful day";
+
+// Problem 24
+// let userInput = 25;
+// if (userInput === 25) {
+// console.log("Input is correct");
+// } else {
+// console.log("Input is incorrect");
+// }
+
+// Problem 25
+
+let passWord= "pass123"
+let isLongEnough= passWord.length >= 6;
+let firstchar = passWord[0];
+let startsWithUppercase= firstchar >= 'A' && firstchar <= 'Z'
+let endsWithNumber = passWord[passWord.length-1] >= '0' && passWord[passWord.length-1] <= '9';
+if (isLongEnough && startsWithUppercase && endsWithNumber) {
+    console.log("Password is valid");
+} else {
+    console.log("Password is invalid");
 }
+console.log("Password is long enough:", isLongEnough);
+console.log("Starts with uppercase:", startsWithUppercase);
+console.log("Ends with number:", endsWithNumber);

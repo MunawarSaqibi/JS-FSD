@@ -79,8 +79,9 @@
 // console.log(lang.slice(--6)); // "Script"
 // console.log(lang.slice(0, --6)); // "Java"
 
-let fruit="I love apple pie"
-console.log(fruit.replace("apple","cherry"));
+// let fruit="I love apple pie"
+// console.log(fruit.replace("apple","cherry"));
 
-let message = "Hello hello HELLO";
-console.log(message.replace("hello", "hi"));
+// let message = "Hello hello HELLO";
+// console.log(message.replace("hello", "hi"));
+

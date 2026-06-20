@@ -214,10 +214,10 @@
 // console.log(age); // 20
 // console.log(grade); // "A"
 
-let user = {
-username: "karan123",
-email: "karan@example.com"
-};
-let { username: id, email: mail } = user;
-console.log(id); // "karan123"
-console.log(mail); // "karan@example.com"
+// let user = {
+// username: "karan123",
+// email: "karan@example.com"
+// };
+// let { username: id, email: mail } = user;
+// console.log(id); // "karan123"
+// console.log(mail); // "karan@example.com"

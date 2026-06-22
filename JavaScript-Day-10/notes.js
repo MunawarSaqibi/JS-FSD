@@ -82,5 +82,3 @@
 // let para=document.querySelector("p")
 // console.log(para.innerHTML)
 
-let alllinks=document.getElementsByTagName("p a")
-console.log(alllinks.innerHTML)

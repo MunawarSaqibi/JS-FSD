@@ -71,7 +71,7 @@ let btn=document.querySelectorAll("button")
 
 function changeColor(){
     this.style.backgroundColor="lightblue";
-    console.log(this.innerText+"was clicked!")
+    console.log(this.innerText+ "was clicked!")
 }
 
 heading1.addEventListener("click",changeColor())

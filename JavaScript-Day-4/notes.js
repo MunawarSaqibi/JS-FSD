@@ -85,3 +85,38 @@
 // let message = "Hello hello HELLO";
 // console.log(message.replace("hello", "hi"));
 
+
+// let colors=["red","green","blue","yellow","purple"]
+// let removed=colors.splice(1,2)
+// console.log(removed)
+// console.log(colors)
+
+// let numbers=[1,2,3,4,5]
+// numbers.splice(1,3,10,20,30)
+// console.log(numbers)
+
+// let arr=[1,5]
+// arr.splice(1,0,2,3,4)
+// console.log(arr)
+
+// let items=["a","b","c","d","e"]
+// items.splice(-2,2)
+// console.log(items)
+
+// let fruits=["apple","orange","mango"]
+// fruits.splice(1,1,"banana")
+// console.log(fruits)
+
+// let fruits=["banana","apple","mango","cherry"]
+// fruits.sort()
+// console.log(fruits)
+
+// let numbers=[100,200,10,4,5]
+// numbers.sort()
+// console.log(numbers)
+
+
+// let scores=[85,90,100,23,14]
+// scores.sort((a,b)=> a-b)
+// console.log(scores)
+

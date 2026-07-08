@@ -201,16 +201,51 @@
 // });
 
 
-let internetSpeed = "fast";
-let downloadFile = new Promise((resolve, reject) => {
-console.log("Download started...");
-setTimeout(() => {
-if (internetSpeed === "fast") {
-resolve("File downloaded successfully!");
-} else {
-reject("Download failed: Slow internet");
-}
-}, 2000);
+// let internetSpeed = "fast";
+// let downloadFile = new Promise((resolve, reject) => {
+// console.log("Download started...");
+// setTimeout(() => {
+// if (internetSpeed === "fast") {
+// resolve("File downloaded successfully!");
+// } else {
+// reject("Download failed: Slow internet");
+// }
+// }, 2000);
+// });
+// console.log("Download initiated");
+// console.log(downloadFile);
+
+
+// function saveToDatabase(data){
+//     return new Promise((resolve,reject)=>{
+//         console.log("Saving to databases");
+
+//         setTimeout(() => {
+
+//             if (dbAvailable) {
+//                 resolve({
+//                     message:"Data Saved Successfully",
+//                     Id: 12345,
+//                     timestamp:new Date()
+//                 });
+//             } else {
+//                 reject("Database Connection failed")
+                
+//             }
+            
+//         }, 1500);
+//     })
+// }
+
+// let savePromise=saveToDatabase({name:"John", age:25})
+// console.log(savePromise);
+
+let promise=new Promise((resolve,reject)=>{
+    setTimeout(() => {
+        resolve("Succes! Data is here")
+    }, 3000);
+})
+
+promise.then((message)=>{
+    console.log(message)
 });
-console.log("Download initiated");
-console.log(downloadFile);
